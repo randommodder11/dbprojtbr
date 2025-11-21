@@ -1,0 +1,64 @@
+Goodreads Books 
+https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks
+
+Private User
+	- ID
+	- email
+	- hashed password
+	- linked public user
+
+Public User
+	- ID
+	- Profile Picture
+	- User Name
+	- Account Token
+	- Reading Lists 
+	- Socials
+
+Review (weak object, depends on Listed Books)
+	- Listed Book (review for book)
+	- Star Rating
+	- Public User (optional, posted by user)
+	- Review Text
+
+Listed Book
+	- ISBN (identifier)
+	- Title
+	- Author Name
+	- Number of Reviews
+	- Average Star Rating
+	- Public Reviews (list of Review)
+
+ReadingListBook
+	- ID
+	- Listed Book (linked book)
+	- User Rating
+	- Comment
+	- ExtraData 
+
+Reading List
+	- ID 
+	- ReadingListBook array
+	- isPublicViewable
+
+FavoriteDisplayBook 
+	- ID
+	- Review 
+
+Reading Lists
+	- ID
+	- Public User
+	- Reading List TBR
+	- Reading List CurrentlyReading
+	- Reading List DNF
+	- Reading List Finished
+	- FavoriteDisplayBook Favorited Boooks 
+
+
+Follow
+	- Public User (followed User)
+	- Public User (followed By User)
+
+Socials 
+	- Follow (list of people you follow)
+
