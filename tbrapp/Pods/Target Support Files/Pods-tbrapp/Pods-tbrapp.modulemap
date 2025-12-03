@@ -1,0 +1,6 @@
+framework module Pods_tbrapp {
+  umbrella header "Pods-tbrapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

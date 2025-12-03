@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56D05EEF1FAF623EDC863E0D /* Pods_tbrappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6469683329983E1096B63DC /* Pods_tbrappTests.framework */; };
+		5B836812AA95513644D0CE20 /* Pods_tbrapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6236474CE567948E240426B9 /* Pods_tbrapp.framework */; };
+		8AC3B7956265B99749A1C539 /* Pods_tbrapp_tbrappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004184813D4708877009320F /* Pods_tbrapp_tbrappUITests.framework */; };
+		E844DC502EDF74740016E7DF /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E844DC4F2EDF741F0016E7DF /* libsqlite3.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E844DC1A2EDE6E3E0016E7DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E844DBFC2EDE6E3C0016E7DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E844DC032EDE6E3C0016E7DF;
+			remoteInfo = tbrapp;
+		};
+		E844DC242EDE6E3E0016E7DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E844DBFC2EDE6E3C0016E7DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E844DC032EDE6E3C0016E7DF;
+			remoteInfo = tbrapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004184813D4708877009320F /* Pods_tbrapp_tbrappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tbrapp_tbrappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2B7742776D4D26215E0E69 /* Pods-tbrappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tbrappTests.release.xcconfig"; path = "Target Support Files/Pods-tbrappTests/Pods-tbrappTests.release.xcconfig"; sourceTree = "<group>"; };
+		24F90618A8A86A39B9A5D9AA /* Pods-tbrapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tbrapp.release.xcconfig"; path = "Target Support Files/Pods-tbrapp/Pods-tbrapp.release.xcconfig"; sourceTree = "<group>"; };
+		40F2B3F711B41B77C737FA2C /* Pods-tbrapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tbrapp.debug.xcconfig"; path = "Target Support Files/Pods-tbrapp/Pods-tbrapp.debug.xcconfig"; sourceTree = "<group>"; };
+		593DCB1ABA6D539F8DA766BF /* Pods-tbrapp-tbrappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tbrapp-tbrappUITests.release.xcconfig"; path = "Target Support Files/Pods-tbrapp-tbrappUITests/Pods-tbrapp-tbrappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60AB4EE4D38237EBF75A70C0 /* Pods-tbrappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tbrappTests.debug.xcconfig"; path = "Target Support Files/Pods-tbrappTests/Pods-tbrappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6236474CE567948E240426B9 /* Pods_tbrapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tbrapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6469683329983E1096B63DC /* Pods_tbrappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tbrappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E844DC042EDE6E3C0016E7DF /* tbrapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tbrapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E844DC192EDE6E3E0016E7DF /* tbrappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tbrappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E844DC232EDE6E3E0016E7DF /* tbrappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tbrappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E844DC4F2EDF741F0016E7DF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		FEBBC5F69C173CE1FED03094 /* Pods-tbrapp-tbrappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tbrapp-tbrappUITests.debug.xcconfig"; path = "Target Support Files/Pods-tbrapp-tbrappUITests/Pods-tbrapp-tbrappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E844DC062EDE6E3C0016E7DF /* tbrapp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = tbrapp;
+			sourceTree = "<group>";
+		};
+		E844DC1C2EDE6E3E0016E7DF /* tbrappTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = tbrappTests;
+			sourceTree = "<group>";
+		};
+		E844DC262EDE6E3E0016E7DF /* tbrappUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = tbrappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E844DC012EDE6E3C0016E7DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E844DC502EDF74740016E7DF /* libsqlite3.0.tbd in Frameworks */,
+				5B836812AA95513644D0CE20 /* Pods_tbrapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844DC162EDE6E3E0016E7DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D05EEF1FAF623EDC863E0D /* Pods_tbrappTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844DC202EDE6E3E0016E7DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC3B7956265B99749A1C539 /* Pods_tbrapp_tbrappUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDED69A2C1F6287C6CBCC07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40F2B3F711B41B77C737FA2C /* Pods-tbrapp.debug.xcconfig */,
+				24F90618A8A86A39B9A5D9AA /* Pods-tbrapp.release.xcconfig */,
+				FEBBC5F69C173CE1FED03094 /* Pods-tbrapp-tbrappUITests.debug.xcconfig */,
+				593DCB1ABA6D539F8DA766BF /* Pods-tbrapp-tbrappUITests.release.xcconfig */,
+				60AB4EE4D38237EBF75A70C0 /* Pods-tbrappTests.debug.xcconfig */,
+				0A2B7742776D4D26215E0E69 /* Pods-tbrappTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E844DBFB2EDE6E3C0016E7DF = {
+			isa = PBXGroup;
+			children = (
+				E844DC062EDE6E3C0016E7DF /* tbrapp */,
+				E844DC1C2EDE6E3E0016E7DF /* tbrappTests */,
+				E844DC262EDE6E3E0016E7DF /* tbrappUITests */,
+				E844DC4E2EDF741F0016E7DF /* Frameworks */,
+				E844DC052EDE6E3C0016E7DF /* Products */,
+				0BDED69A2C1F6287C6CBCC07 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E844DC052EDE6E3C0016E7DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E844DC042EDE6E3C0016E7DF /* tbrapp.app */,
+				E844DC192EDE6E3E0016E7DF /* tbrappTests.xctest */,
+				E844DC232EDE6E3E0016E7DF /* tbrappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E844DC4E2EDF741F0016E7DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E844DC4F2EDF741F0016E7DF /* libsqlite3.0.tbd */,
+				6236474CE567948E240426B9 /* Pods_tbrapp.framework */,
+				004184813D4708877009320F /* Pods_tbrapp_tbrappUITests.framework */,
+				E6469683329983E1096B63DC /* Pods_tbrappTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E844DC032EDE6E3C0016E7DF /* tbrapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E844DC2D2EDE6E3E0016E7DF /* Build configuration list for PBXNativeTarget "tbrapp" */;
+			buildPhases = (
+				886867BDCFD7A47CD0046271 /* [CP] Check Pods Manifest.lock */,
+				E844DC002EDE6E3C0016E7DF /* Sources */,
+				E844DC012EDE6E3C0016E7DF /* Frameworks */,
+				E844DC022EDE6E3C0016E7DF /* Resources */,
+				F11824CF00D98BC7CD059850 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E844DC062EDE6E3C0016E7DF /* tbrapp */,
+			);
+			name = tbrapp;
+			productName = tbrapp;
+			productReference = E844DC042EDE6E3C0016E7DF /* tbrapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E844DC182EDE6E3E0016E7DF /* tbrappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E844DC302EDE6E3E0016E7DF /* Build configuration list for PBXNativeTarget "tbrappTests" */;
+			buildPhases = (
+				0B87B0AA3034809CA5C3C5C4 /* [CP] Check Pods Manifest.lock */,
+				E844DC152EDE6E3E0016E7DF /* Sources */,
+				E844DC162EDE6E3E0016E7DF /* Frameworks */,
+				E844DC172EDE6E3E0016E7DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E844DC1B2EDE6E3E0016E7DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E844DC1C2EDE6E3E0016E7DF /* tbrappTests */,
+			);
+			name = tbrappTests;
+			productName = tbrappTests;
+			productReference = E844DC192EDE6E3E0016E7DF /* tbrappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E844DC222EDE6E3E0016E7DF /* tbrappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E844DC332EDE6E3E0016E7DF /* Build configuration list for PBXNativeTarget "tbrappUITests" */;
+			buildPhases = (
+				DF5AC6FE0FDF7A4AFE2BE8F4 /* [CP] Check Pods Manifest.lock */,
+				E844DC1F2EDE6E3E0016E7DF /* Sources */,
+				E844DC202EDE6E3E0016E7DF /* Frameworks */,
+				E844DC212EDE6E3E0016E7DF /* Resources */,
+				1008DBA73D37DF9C2F010FDF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E844DC252EDE6E3E0016E7DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E844DC262EDE6E3E0016E7DF /* tbrappUITests */,
+			);
+			name = tbrappUITests;
+			productName = tbrappUITests;
+			productReference = E844DC232EDE6E3E0016E7DF /* tbrappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E844DBFC2EDE6E3C0016E7DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E844DC032EDE6E3C0016E7DF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E844DC182EDE6E3E0016E7DF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E844DC032EDE6E3C0016E7DF;
+					};
+					E844DC222EDE6E3E0016E7DF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E844DC032EDE6E3C0016E7DF;
+					};
+				};
+			};
+			buildConfigurationList = E844DBFF2EDE6E3C0016E7DF /* Build configuration list for PBXProject "tbrapp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E844DBFB2EDE6E3C0016E7DF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E844DC052EDE6E3C0016E7DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E844DC032EDE6E3C0016E7DF /* tbrapp */,
+				E844DC182EDE6E3E0016E7DF /* tbrappTests */,
+				E844DC222EDE6E3E0016E7DF /* tbrappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E844DC022EDE6E3C0016E7DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844DC172EDE6E3E0016E7DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844DC212EDE6E3E0016E7DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B87B0AA3034809CA5C3C5C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tbrappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1008DBA73D37DF9C2F010FDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tbrapp-tbrappUITests/Pods-tbrapp-tbrappUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tbrapp-tbrappUITests/Pods-tbrapp-tbrappUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tbrapp-tbrappUITests/Pods-tbrapp-tbrappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		886867BDCFD7A47CD0046271 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tbrapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF5AC6FE0FDF7A4AFE2BE8F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tbrapp-tbrappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F11824CF00D98BC7CD059850 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tbrapp/Pods-tbrapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tbrapp/Pods-tbrapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tbrapp/Pods-tbrapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E844DC002EDE6E3C0016E7DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844DC152EDE6E3E0016E7DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844DC1F2EDE6E3E0016E7DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E844DC1B2EDE6E3E0016E7DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E844DC032EDE6E3C0016E7DF /* tbrapp */;
+			targetProxy = E844DC1A2EDE6E3E0016E7DF /* PBXContainerItemProxy */;
+		};
+		E844DC252EDE6E3E0016E7DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E844DC032EDE6E3C0016E7DF /* tbrapp */;
+			targetProxy = E844DC242EDE6E3E0016E7DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E844DC2B2EDE6E3E0016E7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E844DC2C2EDE6E3E0016E7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E844DC2E2EDE6E3E0016E7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F2B3F711B41B77C737FA2C /* Pods-tbrapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tbrapp/tbrapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3C6L4L43T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carson.arkrevampkk.tbrapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		E844DC2F2EDE6E3E0016E7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F90618A8A86A39B9A5D9AA /* Pods-tbrapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tbrapp/tbrapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3C6L4L43T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carson.arkrevampkk.tbrapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		E844DC312EDE6E3E0016E7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AB4EE4D38237EBF75A70C0 /* Pods-tbrappTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3C6L4L43T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carson.arkrevampkk.tbrappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tbrapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tbrapp";
+			};
+			name = Debug;
+		};
+		E844DC322EDE6E3E0016E7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2B7742776D4D26215E0E69 /* Pods-tbrappTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3C6L4L43T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carson.arkrevampkk.tbrappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tbrapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tbrapp";
+			};
+			name = Release;
+		};
+		E844DC342EDE6E3E0016E7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBBC5F69C173CE1FED03094 /* Pods-tbrapp-tbrappUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3C6L4L43T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carson.arkrevampkk.tbrappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = tbrapp;
+			};
+			name = Debug;
+		};
+		E844DC352EDE6E3E0016E7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593DCB1ABA6D539F8DA766BF /* Pods-tbrapp-tbrappUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3C6L4L43T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carson.arkrevampkk.tbrappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = tbrapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E844DBFF2EDE6E3C0016E7DF /* Build configuration list for PBXProject "tbrapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E844DC2B2EDE6E3E0016E7DF /* Debug */,
+				E844DC2C2EDE6E3E0016E7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E844DC2D2EDE6E3E0016E7DF /* Build configuration list for PBXNativeTarget "tbrapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E844DC2E2EDE6E3E0016E7DF /* Debug */,
+				E844DC2F2EDE6E3E0016E7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E844DC302EDE6E3E0016E7DF /* Build configuration list for PBXNativeTarget "tbrappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E844DC312EDE6E3E0016E7DF /* Debug */,
+				E844DC322EDE6E3E0016E7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E844DC332EDE6E3E0016E7DF /* Build configuration list for PBXNativeTarget "tbrappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E844DC342EDE6E3E0016E7DF /* Debug */,
+				E844DC352EDE6E3E0016E7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E844DBFC2EDE6E3C0016E7DF /* Project object */;
+}

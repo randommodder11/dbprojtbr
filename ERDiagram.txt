@@ -1,0 +1,135 @@
+
+user_profile {
+  id user_profile_id pk
+  string DisplayName
+}
+user_profile.id - user.id
+friend {
+  id friend_id pk
+}
+friend.userone < user.id
+friend.usertwo < user.id
+user_profile.icon - image.id
+user {
+  id user_id pk
+  string Username
+  string Password
+}
+user.id < settings.id
+user.id < user_book_list.id
+user.id > social.id
+recommendation{
+  id recommendation_id pk
+  string recommendationReason
+}
+recommendation.RecommendedBy > user.id
+recommendation.RecommendedTo > user.id
+recommendation.RecommendedBook > book.id
+user_book {
+  id user_book_id pk
+  float progress
+  
+}
+user_book.linked_book > book.id
+user_book.userRating - rating.id
+user_book.linkedUser - user.id
+user_book.userComment - reviews.id
+
+user_book_list {
+  id user_book_list_id pk
+  //reading, has read, dnf
+  string status
+  //public/private?
+  string publicicity
+}
+user_book.linked_to_list > user_book_list.id
+
+
+user_book_list.id - user.id
+book {
+  id book_id pk
+  string isbn
+  string description
+}
+book.id < rating.id //one book has many ratings
+book.id < reviews.id
+
+books_in_genre {
+  id books_in_genre pk
+  CreatedAt timestamp
+}
+books_in_genre.genreForBook > genre.id
+books_in_genre.bookInGenre > book.id
+
+
+settings {
+  id settings_id pk
+  string setting_name
+  string settingsData
+}
+image{
+  id image_id pk
+  string image_b64
+  string image_name
+  string filename
+}
+author {
+  id author_id pk
+  string author_name
+}
+publisher {
+  id publisher_id pk
+  string publisherName
+  string publisherDescription
+}
+book_publiser_link{
+  id book_publisher_link_id pk
+}
+book_publiser_link.book > book.id
+book_publiser_link.publisher > publisher.id
+
+rating {
+  id ratings_id pk
+  float stars
+}
+reviews {
+  id review_id pk
+  string review_text
+
+}
+reviews.linkedRating - rating.id
+user_review_link {
+  id user_review_link_id pk
+}
+user_review_link.review > reviews.id
+user_review_link.writtenBy > user.id
+
+genre {
+  id genre_id pk
+  string genre_name 
+  string genre_discription
+  CreatedAt timestamp
+}
+social {
+  id social_id pk
+  string SocialName
+  string SocialDescription
+  string SocialLink
+}
+author_book_link {
+  id author_book_link_id pk
+  CreatedAt timestamp
+}
+author_book_link.wrote > book.id
+author_book_link.writtenby > author.id
+
+
+publisher.publisher_id < social.social_id
+image.id - social.imageID
+follow_link {
+  id follow_link_id pk
+  CreatedAt timestamp
+}
+follow_link.follower > user.id
+follow_link.following > user_profile.id
+

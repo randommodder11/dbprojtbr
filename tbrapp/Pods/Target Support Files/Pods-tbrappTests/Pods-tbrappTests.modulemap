@@ -1,0 +1,6 @@
+framework module Pods_tbrappTests {
+  umbrella header "Pods-tbrappTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
