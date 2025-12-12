@@ -23,3 +23,11 @@ NOTE: at first I was attempting to use Open Library data sets, however my comput
 
 
 https://youtu.be/BxM4t_uVek8?si=jT6oa30RFmn1-wzi
+
+Database:
+My databse is over 100mb, download it and drag it into the root folder and include it into the app. 
+
+Building:
+Quite honestly i'm not 100% sure, as this is an xcode project obviously you need mac, and you will probalby need to fuck with some stuff since xcode is super picky
+I was planning on spending more time making it buildable but I spent too long for studying for other shit like the exam and didnt budget enough time, so sorry about that. 
+https://drive.google.com/file/d/1p0AsrB4vf42WiyZbzNEmAJp0ROUnc-zR/view?usp=sharing
