@@ -1,0 +1,20 @@
+PODS:
+  - FMDB (2.7.12):
+    - FMDB/standard (= 2.7.12)
+  - FMDB/Core (2.7.12)
+  - FMDB/standard (2.7.12):
+    - FMDB/Core
+
+DEPENDENCIES:
+  - FMDB
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+
+SPEC CHECKSUMS:
+  FMDB: 728731dd336af3936ce00f91d9d8495f5718a0e6
+
+PODFILE CHECKSUM: 9b86dd02de746bbb7277484927444f5650742165
+
+COCOAPODS: 1.16.2
